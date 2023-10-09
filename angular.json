@@ -30,7 +30,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "mirrorfly-uikit/dist/assets/scss/bundle.css"
             ],
             "scripts": []
           },
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "27d8fcd3-9920-4e23-8d89-36b81475f5a5"
   }
 }

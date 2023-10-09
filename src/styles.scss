@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#ece7e7ba;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        /* background: #69ddc6; */
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #e02727;
+    padding: 20px;
+    font-family: 'Arial';
+}
+label{
+    color: #070707;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-top: 5%
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 100%;
+  height: 50%;
+  border-radius: 0%;
+}
+#log{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: rgb(253, 250, 250);
+    background-color: #e02727;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+a{
+    float: right;
+    background-color: grey;
+}
